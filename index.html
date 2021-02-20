@@ -32,17 +32,50 @@
             color: black;
         }
 
+        .container {
+            padding: 0 0 !important;
+            border-top: 0px !important;
+            display: flex !important;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .header {
+            border-top: 0 !important;
+            padding: 15px 0 !important;
+        }
+
+        .desc {
+            margin-bottom: 5px !important;
+        }
+
+        .icon-game {
+            display: flex;
+        }
+
     </style>
+    <!-- custom css-->
 
 </head>
 
 <body>
 <!-- ******HEADER****** -->
-<header class="header" style="padding: 0 0 !important; border-top: 0px !important;">
-    <div class="container clearfix">
-        <div class="profile-content float-left" style="margin-left: 34em;">
+<header class="header" style="">
+    <div class="container">
+        <div class="profile-content">
             <h1 class="name">Barış Ortaç</h1>
             <h2 class="desc">Software Developer</h2>
+            <div class="icon-game">
+                <small>
+                    <a class="more-link"
+                       href="https://icongame.vercel.app/"
+                       target="_blank">Icon Game</a>
+                    <span class="badge badge-info"
+                          style="background-color: hotpink;">
+                        Try it!
+                    </span>
+                </small>
+            </div>
             <!--                <ul class="social list-inline">-->
             <!--                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>-->
             <!--                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>-->
@@ -55,7 +88,7 @@
     </div><!--//container-->
 </header><!--//header-->
 
-<div class="container sections-wrapper" style="padding-top: 30px;">
+<div class="container sections-wrapper" style="margin-top: 30px;">
     <div class="row">
         <div class="primary col-lg-8 col-12">
             <section class="about section">
@@ -515,70 +548,70 @@
                 </div><!--//section-inner-->
             </aside><!--//section-->
 
-<!--            <aside class="languages aside section">-->
-<!--                <div class="section-inner shadow-sm rounded">-->
-<!--                    <h2 class="heading">Languages</h2>-->
-<!--                    <div class="content">-->
-<!--                        <ul class="list-unstyled">-->
-<!--                            <li class="item">-->
-<!--                                <span class="title"><strong>English:</strong></span>-->
-<!--                                <span class="level">Native Speaker <br-->
-<!--                                        class="visible-xs"/><i-->
-<!--                                        class="fas fa-star"></i> <i-->
-<!--                                        class="fas fa-star"></i> <i-->
-<!--                                        class="fas fa-star"></i> <i-->
-<!--                                        class="fas fa-star"></i> <i-->
-<!--                                        class="fas fa-star"></i> </span>-->
-<!--                            </li>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            <li class="item">-->
-<!--                                <span class="title"><strong>Spanish:</strong></span>-->
-<!--                                <span class="level">Professional Proficiency <br-->
-<!--                                        class="visible-sm visible-xs"/><i-->
-<!--                                        class="fas fa-star"></i> <i-->
-<!--                                        class="fas fa-star"></i> <i-->
-<!--                                        class="fas fa-star"></i> <i-->
-<!--                                        class="fas fa-star-half"></i></span>-->
-<!--                            </li>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                        </ul>-->
-<!--                    </div>&lt;!&ndash;//content&ndash;&gt;-->
-<!--                </div>&lt;!&ndash;//section-inner&ndash;&gt;-->
-<!--            </aside>&lt;!&ndash;//section&ndash;&gt;-->
+            <!--            <aside class="languages aside section">-->
+            <!--                <div class="section-inner shadow-sm rounded">-->
+            <!--                    <h2 class="heading">Languages</h2>-->
+            <!--                    <div class="content">-->
+            <!--                        <ul class="list-unstyled">-->
+            <!--                            <li class="item">-->
+            <!--                                <span class="title"><strong>English:</strong></span>-->
+            <!--                                <span class="level">Native Speaker <br-->
+            <!--                                        class="visible-xs"/><i-->
+            <!--                                        class="fas fa-star"></i> <i-->
+            <!--                                        class="fas fa-star"></i> <i-->
+            <!--                                        class="fas fa-star"></i> <i-->
+            <!--                                        class="fas fa-star"></i> <i-->
+            <!--                                        class="fas fa-star"></i> </span>-->
+            <!--                            </li>&lt;!&ndash;//item&ndash;&gt;-->
+            <!--                            <li class="item">-->
+            <!--                                <span class="title"><strong>Spanish:</strong></span>-->
+            <!--                                <span class="level">Professional Proficiency <br-->
+            <!--                                        class="visible-sm visible-xs"/><i-->
+            <!--                                        class="fas fa-star"></i> <i-->
+            <!--                                        class="fas fa-star"></i> <i-->
+            <!--                                        class="fas fa-star"></i> <i-->
+            <!--                                        class="fas fa-star-half"></i></span>-->
+            <!--                            </li>&lt;!&ndash;//item&ndash;&gt;-->
+            <!--                        </ul>-->
+            <!--                    </div>&lt;!&ndash;//content&ndash;&gt;-->
+            <!--                </div>&lt;!&ndash;//section-inner&ndash;&gt;-->
+            <!--            </aside>&lt;!&ndash;//section&ndash;&gt;-->
 
 
-<!--            <aside class="list music aside section">-->
-<!--                <div class="section-inner shadow-sm rounded">-->
-<!--                    <h2 class="heading">Favourite coding music</h2>-->
-<!--                    <div class="content">-->
-<!--                        <ul class="list-unstyled">-->
-<!--                            <li><i class="fas fa-headphones"></i> <a href="#">Etiam-->
-<!--                                hendrerit urna nunc</a></li>-->
-<!--                            <li><i class="fas fa-headphones"></i> <a href="#">Ut-->
-<!--                                sollicitudin in mauris non auctor</a></li>-->
-<!--                            <li><i class="fas fa-headphones"></i> <a href="#">Etiam-->
-<!--                                hendrerit urna nunc</a></li>-->
-<!--                            <li><i class="fas fa-headphones"></i> <a href="#">Duis-->
-<!--                                et felis bibendum</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>&lt;!&ndash;//content&ndash;&gt;-->
-<!--                </div>&lt;!&ndash;//section-inner&ndash;&gt;-->
-<!--            </aside>&lt;!&ndash;//section&ndash;&gt;-->
+            <!--            <aside class="list music aside section">-->
+            <!--                <div class="section-inner shadow-sm rounded">-->
+            <!--                    <h2 class="heading">Favourite coding music</h2>-->
+            <!--                    <div class="content">-->
+            <!--                        <ul class="list-unstyled">-->
+            <!--                            <li><i class="fas fa-headphones"></i> <a href="#">Etiam-->
+            <!--                                hendrerit urna nunc</a></li>-->
+            <!--                            <li><i class="fas fa-headphones"></i> <a href="#">Ut-->
+            <!--                                sollicitudin in mauris non auctor</a></li>-->
+            <!--                            <li><i class="fas fa-headphones"></i> <a href="#">Etiam-->
+            <!--                                hendrerit urna nunc</a></li>-->
+            <!--                            <li><i class="fas fa-headphones"></i> <a href="#">Duis-->
+            <!--                                et felis bibendum</a></li>-->
+            <!--                        </ul>-->
+            <!--                    </div>&lt;!&ndash;//content&ndash;&gt;-->
+            <!--                </div>&lt;!&ndash;//section-inner&ndash;&gt;-->
+            <!--            </aside>&lt;!&ndash;//section&ndash;&gt;-->
 
-<!--            <aside class="list conferences aside section">-->
-<!--                <div class="section-inner shadow-sm rounded">-->
-<!--                    <h2 class="heading">Conferences</h2>-->
-<!--                    <div class="content">-->
-<!--                        <ul class="list-unstyled">-->
-<!--                            <li><i class="far fa-calendar-alt"></i> <a href="#"-->
-<!--                                                                       target="_blank">WWDC-->
-<!--                                2020</a> (San Francisco)-->
-<!--                            </li>-->
-<!--                            <li><i class="far fa-calendar-alt"></i> <a href="#">Hive</a>-->
-<!--                                (Seattle)-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>&lt;!&ndash;//content&ndash;&gt;-->
-<!--                </div>&lt;!&ndash;//section-inner&ndash;&gt;-->
-<!--            </aside>&lt;!&ndash;//section&ndash;&gt;-->
+            <!--            <aside class="list conferences aside section">-->
+            <!--                <div class="section-inner shadow-sm rounded">-->
+            <!--                    <h2 class="heading">Conferences</h2>-->
+            <!--                    <div class="content">-->
+            <!--                        <ul class="list-unstyled">-->
+            <!--                            <li><i class="far fa-calendar-alt"></i> <a href="#"-->
+            <!--                                                                       target="_blank">WWDC-->
+            <!--                                2020</a> (San Francisco)-->
+            <!--                            </li>-->
+            <!--                            <li><i class="far fa-calendar-alt"></i> <a href="#">Hive</a>-->
+            <!--                                (Seattle)-->
+            <!--                            </li>-->
+            <!--                        </ul>-->
+            <!--                    </div>&lt;!&ndash;//content&ndash;&gt;-->
+            <!--                </div>&lt;!&ndash;//section-inner&ndash;&gt;-->
+            <!--            </aside>&lt;!&ndash;//section&ndash;&gt;-->
 
 
         </div><!--//secondary-->
